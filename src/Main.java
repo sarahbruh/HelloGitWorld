@@ -10,12 +10,12 @@ public class Main {
 
             try{
                 System.out.printf("Bitte geben Sie einen Wert ein: %n");
-                int a = sc.nextInt();
+                double a = sc.nextDouble();
 
                 System.out.printf("Bitte geben Sie einen Wert ein: %n");
-                int b = sc.nextInt();
+                double b = sc.nextDouble();
 
-                int summe = a / b;
+                double summe = a + b;
 
                 System.out.println("Die Summe beträgt " +summe);
                 System.out.println("----------------------------------------------");
