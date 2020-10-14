@@ -15,7 +15,7 @@ public class Main {
                 System.out.printf("Bitte geben Sie einen Wert ein: %n");
                 int b = sc.nextInt();
 
-                int summe = a - b;
+                int summe = a * b;
 
                 System.out.println("Die Summe beträgt " +summe);
                 System.out.println("----------------------------------------------");
